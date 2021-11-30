@@ -5,6 +5,14 @@
     text-align: center;
   }
 
+  .custom-logo{
+    font-family: 'Pacifico', cursive;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size:30px;
+}
 
   button {
       background-color: #fff;
@@ -21,8 +29,7 @@
     font-size:20px;
 }
 
-.logo-icon{
-    margin-left: 30px;
-}
+
+
 
 
