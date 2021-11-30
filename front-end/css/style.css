@@ -1,0 +1,24 @@
+#content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+
+  button {
+      background-color: #fff;
+      border: none;
+  }
+  
+.fa-check-circle {
+    color: rgb(13, 138, 1);
+    font-size:20px;
+}
+
+.fa-times-circle {
+    color: rgb(138, 1, 1);
+    font-size:20px;
+}
+
+

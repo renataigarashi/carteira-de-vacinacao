@@ -56,9 +56,24 @@ const updateVaccinated = async (req, res) => {
     }
 }
 
+const deleteVaccineById = async (req, res) => {
+    const vaccineId = req.params.id;
+    try{
+        const deleteVaccine = await Vaccine.destroy(
+            { where: { id: vaccineId}}
+        );
+        (deleteVaccine) 
+        ? res.status(200).send(`Vacina de ID ${vaccineId} deletada com sucesso`)
+        : res.status(404).send(`Vacina de ID ${vaccineId} não encontrado`)
+    } catch(error){
+        res.status(500).send({ message: error.message})
+    }
+}
+
 module.exports = {
     createVaccine,
     getAllVaccine,
     getVaccineById,
-    updateVaccinated
+    updateVaccinated,
+    deleteVaccineById
 }
