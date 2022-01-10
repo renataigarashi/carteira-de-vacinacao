@@ -2,7 +2,7 @@
 
 Instruções do Desafio final estão disponíveis em https://github.com/jansenvanessa/woman-can-code-api/blob/master/extras/exerc%C3%ADcio/vacina.md
 
-O objetivo do desafio é criar uma API para controle de vacinas.
+O objetivo do desafio é criar uma API para controle de vacinas utilizando o que foi aprendido em NodeJS.
 
 O banco utilizado é o Postgres, criado no Heroku: https://vaccine-info-ze-gotinha.herokuapp.com/vaccines
 
